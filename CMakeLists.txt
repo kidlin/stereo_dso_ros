@@ -15,7 +15,7 @@ find_package(catkin REQUIRED COMPONENTS
   message_filters
 )
 
-set(STEREO_DSO_PATH /home/huicanlin/src/stereo_dso)
+set(STEREO_DSO_PATH /home/tianpei/project/stereo_dso)
 message("\n\n---- LOOKING FOR STEREO_DSO at\n\"${STEREO_DSO_PATH}\"")
 
 
