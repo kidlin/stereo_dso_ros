@@ -3,7 +3,7 @@ project(stereo_dso_ros)
 
 #set(CMAKE_MODULE_PATH ${PROJECT_SOURCE_DIR}/cmake_module) # added by huicanlin
 #set(OpenCV_DIR "/home/huicanlin/Downloads/software/opencv-3.2.0/local/share/OpenCV/")
-#find_package(OpenCV 3 REQUIRED)
+find_package(OpenCV 3 REQUIRED)
 #message("\n\n---- FOUND OpenCV Headers at\n\"${OpenCV_INCLUDE_DIRS}\"")
 #message("---- FOUND OpenCV Libs at\n\"${OpenCV_LIBS}\"")
 
